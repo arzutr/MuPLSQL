@@ -20,4 +20,4 @@ create table myschema.tmutation ....
 
 
 
-Table information is added as pdf document. Would please read before run. 
+Table information is added as pdf document. Would please read this document before run scripts. 
