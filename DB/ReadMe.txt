@@ -17,3 +17,7 @@ create table tmutation ....
 AFTER
 
 create table myschema.tmutation .... 
+
+
+
+Table information is added as pdf document. Would please read before run. 
