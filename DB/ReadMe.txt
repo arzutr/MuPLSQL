@@ -21,3 +21,6 @@ create table myschema.tmutation ....
 
 
 Table information is added as pdf document. Would please read this document before run scripts. 
+
+
+In the ddl_create_user.sql file sample schema and required grants are declared. 
