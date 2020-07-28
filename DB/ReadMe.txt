@@ -10,14 +10,14 @@ For deployment Schema name can be added to database objects.
 Such as: 
 
 BEFORE
-
+```
 create table tmutation ....
-
+```
 
 AFTER
-
+```
 create table myschema.tmutation .... 
-
+```
 
 
 Table information is added as pdf document. Would please read this document before run scripts. 
