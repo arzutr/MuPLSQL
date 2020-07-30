@@ -1,0 +1,37 @@
+<project name="MuPLSQL" default="all" basedir=".">
+	<!-- creating jar with ant script -->
+	
+	<property name="src.dir" value="./src" />
+	<property name="lib.dir" value="./lib" />
+	<property name="build.classes" value="./buildclassess" />
+	<property name="deploy.dir" value="./deploy" />
+	<property name="deploy_package" value="muPLSQL.jar"/>
+		
+	<target name="init" >
+		<delete dir="${build.classes}"/>
+		<mkdir dir="${build.classes}"/>
+		<mkdir dir="${deploy.dir}"/>
+	</target>
+	
+	<target name="compile" depends="init" >
+		<javac srcdir="${src.dir}" destdir="${build.classes}" >
+			<classpath>
+			<fileset dir="${lib.dir}" />
+				</classpath>
+		</javac>
+	</target>
+		
+	
+	<target name="package" depends="compile" description="Create package for compiled classes" >
+		<delete file="${deploy.dir}/${deploy_package}" />
+		<jar destfile="${deploy.dir}/${deploy_package}" >
+			<fileset dir="${build.classes}"/>
+		</jar>
+	</target>
+	
+	<target name="all" depends="package" >
+		
+	</target>
+	
+	
+</project>
