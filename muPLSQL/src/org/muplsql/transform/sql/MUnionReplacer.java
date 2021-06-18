@@ -1,26 +1,18 @@
-package org.muplsql.transform.sql;
+package org.muplsql_full.transform.sql;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.muplsql.mcase.Case;
-import org.muplsql.model.MutationConstants;
-import org.muplsql.transform.MITransformer;
-import org.muplsql.transform.MutaOperatorType;
-/****
- * 
- * @author arzu
- *
- * FIXME in future minus and intersect keywords could be added and will  put in  PLSQL operator
- */
+import org.muplsql_full.transform.MITransformer;
+import org.muplsql_full.transform.MutaOperatorType;
+
 public class MUnionReplacer extends MITransformer {
 
-	static String changeList[][] = new String[][] { { "union", "union all" }, { "union all", "union" } };
+	static String changeList[][] = new String[][] { { "union", "union all" }, { "union all", "union" } ,{ "union", "intersect" },{ "union all", "intersect" } , { "union all", "minus" } ,{ "union", "minus" }, { "intersect", "minus" }};
 
 	public MUnionReplacer() {
-		this.mtype = MutaOperatorType.Mot021.name();
+		this.mtype = MutaOperatorType.Mot21.name();
 		this.mopId = 21;
-		oCcase = new Case();
 	}
 
 	@Override
@@ -28,16 +20,11 @@ public class MUnionReplacer extends MITransformer {
 		List<String> result = new ArrayList<>();
 
 		for (int i = 0; i < 2; i++) {
-			if (value.equalsIgnoreCase(changeList[i][0])) {
-				result.add( changeList[i][1]);
+			if (value.contains(changeList[i][0])) {
+				result.add(value.replace(changeList[i][0], changeList[i][1]));
 			}
 		}
-		
-		if (value.equalsIgnoreCase(MutationConstants.ALL)) {
-			if (hasUnion()) {
-				result.add( " ");
-			}
-		}
+
 		return result;
 	}
 
@@ -49,13 +36,5 @@ public class MUnionReplacer extends MITransformer {
 		}
 
 	}
-	
-	private boolean hasUnion() {
-		return oCcase.preString != null && !oCcase.preString.equalsIgnoreCase(MutationConstants.UNION);
-	}
-		
-	@Override
-	public  boolean hasPreCondition(){
-		return true;
-	}
+
 }
