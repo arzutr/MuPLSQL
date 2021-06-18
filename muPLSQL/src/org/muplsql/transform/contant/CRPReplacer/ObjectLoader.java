@@ -12,4 +12,11 @@ public class ObjectLoader {
     
     return mainList;
   }
+	
+	public List<ColumnTypeList> getHidden() {
+		List<ColumnTypeList> mainList = new ArrayList<ColumnTypeList>();
+		ColumnTypeList c = new ColumnTypeList("","");
+		c.hiddenColumns.add(new DBObject("",""));
+		mainList.add(c);
+	}
 }
