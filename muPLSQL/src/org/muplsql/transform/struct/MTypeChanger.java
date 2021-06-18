@@ -24,6 +24,23 @@ public List<String> mutateAsList(String value) {
 		result.add("VARCHAR2" );
 
 	
+		if (value.equalsIgnoreCase("IS"))
+			oCcase.beginStarted++;
+		
+		if (value.equalsIgnoreCase("BEGIN"))
+			oCcase.beginStarted =0;
+		
+		if (value.equalsIgnoreCase("END"))
+			oCcase.beginStarted =0;
+		
+		if (value.equalsIgnoreCase("VARCHAR2"))
+			result.add("CHAR");
+
+		if (value.equalsIgnoreCase("NUMBER"))
+			result.add("INTEGER");
+
+		if (value.equalsIgnoreCase("DATE"))
+			result.add("DATETIME");
 	return result;
 }
 
