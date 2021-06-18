@@ -6,6 +6,12 @@ import java.util.List;
 import org.muplsql.transform.MITransformer;
 import org.muplsql.transform.MutaOperatorType;
 
+/**
+This class were moved to array package and it was edited according to Oracle 11.
+
+*/
+
+@Deprecated 
 public class ArrayIndexReplacer extends MITransformer {
 
 	public ArrayIndexReplacer() {
