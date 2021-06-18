@@ -21,6 +21,8 @@ public class MNextvalReplacer extends MITransformer {
 
 		if (value.equalsIgnoreCase("nextval"))
 			result.add("CURRVAL"  );
+		if (value.equalsIgnoreCase("currval"))
+			result.add("nextval"  );		
 
 		return result;
 	}
