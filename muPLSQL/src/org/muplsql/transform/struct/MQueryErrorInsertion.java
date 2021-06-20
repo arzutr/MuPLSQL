@@ -9,7 +9,7 @@ import org.muplsql.transform.MutaOperatorType;
 public class MQueryErrorInsertion extends MITransformer {
 
 	public MQueryErrorInsertion() {
-		this.mtype = MutaOperatorType.Mot008.name();//FIXME
+		this.mtype = MutaOperatorType.Mot8.name();//FIXME
 		this.mopId =8;
 	}
 

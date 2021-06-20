@@ -9,7 +9,7 @@ import org.muplsql.transform.MutaOperatorType;
 public class MExceptionInsertion  extends MITransformer {
 
 	public MExceptionInsertion() {
-		this.mtype = MutaOperatorType.Mot003.name();//FIXME
+		this.mtype = MutaOperatorType.Mot3.name();//FIXME
 		this.mopId = 3;
 	}
 

@@ -17,7 +17,7 @@ import org.muplsql.transform.MutaOperatorType;
 public class MSQLLogicalConnectorChanger extends MITransformer {
 	static String changeList[][] = new String[][] { { "and", "or" }, { "or", "and" } };
 	public MSQLLogicalConnectorChanger() {
-		this.mtype = MutaOperatorType.Mot004.name();//FIXME
+		this.mtype = MutaOperatorType.Mot4.name();//FIXME
 		this.mopId =4;
 		oCcase = new Case();
 	}

@@ -11,7 +11,7 @@ import org.muplsql.transform.MutaOperatorType;
 public class MLikeHelperChanger extends MITransformer {
 
 	public MLikeHelperChanger() {
-		this.mtype = MutaOperatorType.Mot025.name();//FIXME
+		this.mtype = MutaOperatorType.Mot25.name();//FIXME
 		this.mopId =25;
 	}
 

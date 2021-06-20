@@ -1,10 +1,10 @@
-package org.muplsql_full.transform.sql;
+package org.muplsql.transform.sql;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.muplsql_full.transform.MITransformer;
-import org.muplsql_full.transform.MutaOperatorType;
+import org.muplsql.transform.MITransformer;
+import org.muplsql.transform.MutaOperatorType;
 
 public class MUnionReplacer extends MITransformer {
 

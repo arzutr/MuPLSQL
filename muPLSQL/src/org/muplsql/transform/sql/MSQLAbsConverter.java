@@ -10,7 +10,7 @@ import org.muplsql.transform.MutaOperatorType;
 
 public class MSQLAbsConverter extends MITransformer {
 	public MSQLAbsConverter() {
-		this.mtype = MutaOperatorType.Mot016.name();// FIXME
+		this.mtype = MutaOperatorType.Mot16.name();// FIXME
 		this.mopId = 16;
 		oCcase = new Case();
 	}

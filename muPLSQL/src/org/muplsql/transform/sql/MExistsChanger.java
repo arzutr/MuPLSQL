@@ -13,7 +13,7 @@ import org.muplsql.transform.MutaOperatorType;
 
 public class MExistsChanger extends MITransformer {
 	public MExistsChanger() {
-		this.mtype = MutaOperatorType.Mot037.name();// FIXME
+		this.mtype = MutaOperatorType.Mot37.name();// FIXME
 		this.mopId = 37;
 		oCcase = new Case();
 	}

@@ -1,4 +1,4 @@
-
+package org.muplsql.transform.constant;
 import java.util.*;
 
 public class ColumnTypeList {

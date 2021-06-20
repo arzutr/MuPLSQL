@@ -9,7 +9,7 @@ import org.muplsql.transform.MutaOperatorType;
 public class MDistinctRemover extends MITransformer {
 
 	public MDistinctRemover() {
-		this.mtype = MutaOperatorType.Mot014.name();//FIXME
+		this.mtype = MutaOperatorType.Mot14.name();//FIXME
 		this.mopId =14;
 	}
 

@@ -16,7 +16,7 @@ import org.muplsql.transform.MutaOperatorType;
 public class MBreakAdder extends MITransformer {
 
 	public MBreakAdder() {
-		this.mtype = MutaOperatorType.Mot032.name();//FIXME
+		this.mtype = MutaOperatorType.Mot32.name();//FIXME
 		this.mopId = 32;
 	}
 

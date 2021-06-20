@@ -1,15 +1,15 @@
-package org.muplsql_full.transform.sql;
+package org.muplsql.transform.sql;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import org.muplsql_full.mcase.Case;
-import org.muplsql_full.transform.ITransformer;
-import org.muplsql_full.transform.MITransformer;
-import org.muplsql_full.transform.MutaOperatorType;
-import org.muplsql_full.transform.constant.ColumnTypeList;
-import org.muplsql_full.transform.constant.DBObject;
+import org.muplsql.mcase.*;
+import org.muplsql.transform.*;
+
+import org.muplsql.transform.constant.*;
+
+
 
 public class MIRHHiddenColumnReplacer extends MITransformer implements ITransformer {
 

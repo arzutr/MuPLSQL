@@ -11,7 +11,7 @@ public class MWhereOrderReplacer extends MITransformer {
 	static String changeList[][] = new String[][] { { "asc", "desc" }, { "desc", "asc" } };
 
 	public MWhereOrderReplacer() {
-		this.mtype = MutaOperatorType.Mot018.name();
+		this.mtype = MutaOperatorType.Mot18.name();
 		this.mopId = 18;
 	}
 

@@ -1,10 +1,9 @@
-package org.muplsql_full.transform.sql;
+package org.muplsql.transform.sql;
+
+import org.muplsql.transform.*;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import org.muplsql_full.transform.MITransformer;
-import org.muplsql_full.transform.MutaOperatorType;
 
 public class MBetweenPredicateChanger extends MITransformer {
 

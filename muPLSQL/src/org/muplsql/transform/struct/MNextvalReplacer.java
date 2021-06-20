@@ -11,7 +11,7 @@ import org.muplsql.transform.MutaOperatorType;
 public class MNextvalReplacer extends MITransformer {
 
 	public MNextvalReplacer() {
-		this.mtype = MutaOperatorType.Mot009.name();//FIXME
+		this.mtype = MutaOperatorType.Mot9.name();//FIXME
 		this.mopId = 9;
 	}
 

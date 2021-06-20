@@ -9,7 +9,7 @@ import org.muplsql.transform.MutaOperatorType;
 public class MCommitRemover extends MITransformer {
 
 	public MCommitRemover() {
-		this.mtype = MutaOperatorType.Mot006.name();//FIXME
+		this.mtype = MutaOperatorType.Mot6.name();//FIXME
 		this.mopId = 6;
 	}
 

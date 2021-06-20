@@ -18,7 +18,7 @@ import org.muplsql.transform.MutaOperatorType;
 public class MOracleFunctionReplacer extends MITransformer {
 
 	public MOracleFunctionReplacer() {
-		this.mtype = MutaOperatorType.Mot011.name();//FIXME
+		this.mtype = MutaOperatorType.Mot11.name();//FIXME
 		this.mopId = 11;
 	}
 

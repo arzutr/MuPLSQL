@@ -26,7 +26,7 @@ public class MSQLRelationalOpChanger extends MITransformer {
 	};
 
 	public MSQLRelationalOpChanger() {
-		this.mtype = MutaOperatorType.Mot005.name();
+		this.mtype = MutaOperatorType.Mot5.name();
 		this.mopId = 5;
 		oCcase = new Case();
 		

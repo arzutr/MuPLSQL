@@ -23,7 +23,7 @@ public class MBomber extends MITransformer {
 	static String changeList[][] = new String[][] { { ";", "; \n execute immediate '1=0'; " }};
 
 	public MBomber() {
-		this.mtype = MutaOperatorType.Mot030.name();
+		this.mtype = MutaOperatorType.Mot30.name();
 		this.mopId =30;
 	}
 

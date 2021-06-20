@@ -15,7 +15,7 @@ This class were moved to array package and it was edited according to Oracle 11.
 public class ArrayIndexReplacer extends MITransformer {
 
 	public ArrayIndexReplacer() {
-		this.mtype = MutaOperatorType.Mot012.name();
+		this.mtype = MutaOperatorType.Mot12.name();
 		this.mopId = 12;
 	}
 

@@ -9,7 +9,7 @@ import org.muplsql.transform.MutaOperatorType;
 public class MNumberConstantReplacer extends MITransformer {
 
 	public MNumberConstantReplacer() {
-		this.mtype = MutaOperatorType.Mot010.name();//FIXME
+		this.mtype = MutaOperatorType.Mot10.name();//FIXME
 		this.mopId = 10;
 	}
 

@@ -1,12 +1,12 @@
-package org.muplsql_full.transform.sql;
+package org.muplsql.transform.sql;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import org.muplsql_full.mcase.Case;
-import org.muplsql_full.transform.MITransformer;
-import org.muplsql_full.transform.MutaOperatorType;
+import org.muplsql.mcase.Case;
+import org.muplsql.transform.MITransformer;
+import org.muplsql.transform.MutaOperatorType;
 
 /**
 nullable olan alani is null ile set yapiyoruz bunun yerine 1=0 da ayni.

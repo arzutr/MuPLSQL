@@ -7,13 +7,15 @@ import org.muplsql.mcase.Case;
 import org.muplsql.transform.MITransformer;
 import org.muplsql.transform.MutaOperatorType;
 
-public class MArithmeticChanger extends MITransformer {
+public class MArithmeticOperatorChanger extends MITransformer {
 
 	static String changeList[][] = new String[][] { { "+", "-" }, { "+", "*" }, { "+", "/" }, { "*", "-" },
 			{ "*", "+" }, { "*", "/" }, { "/", "-" }, { "/", "*" }, { "/", "+" }, { "-", "+" }, { "-", "*" },
 			{ "-", "/" } };
 
-	public MArithmeticChanger() {
+
+
+	public MArithmeticOperatorChanger() {
 		this.mtype = MutaOperatorType.Mot1.name();
 		this.mopId = 1;
 		oCcase = new Case();

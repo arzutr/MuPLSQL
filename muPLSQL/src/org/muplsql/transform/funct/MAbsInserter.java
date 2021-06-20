@@ -17,7 +17,7 @@ import org.muplsql.transform.MutaOperatorType;
 public class MAbsInserter extends MITransformer {
 
 	public MAbsInserter() {
-		this.mtype = MutaOperatorType.Mot013.name();
+		this.mtype = MutaOperatorType.Mot13.name();
 		this.mopId = 13;
 		oCcase = new Case();
 	}

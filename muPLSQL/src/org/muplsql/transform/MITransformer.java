@@ -10,7 +10,7 @@ public abstract class MITransformer {
 
 
 
-	protected org.muplsql_full.mcase.Case oCcase ;
+	protected org.muplsql.mcase.Case oCcase ;
 
 	
 

@@ -9,7 +9,7 @@ import org.muplsql.transform.MutaOperatorType;
 public class MAssignOperatorReplacer extends MITransformer {
 
 	public MAssignOperatorReplacer() {
-		this.mtype = MutaOperatorType.Mot015.name();
+		this.mtype = MutaOperatorType.Mot15.name();
 		this.mopId = 15;
 	}
 

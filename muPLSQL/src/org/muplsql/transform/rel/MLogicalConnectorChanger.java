@@ -11,7 +11,7 @@ public class MLogicalConnectorChanger extends MITransformer {
 	static String changeList[][] = new String[][] { { "and", "or" }, { "or", "and" } };
 
 	public MLogicalConnectorChanger() {
-		this.mtype = MutaOperatorType.Mot002.name();
+		this.mtype = MutaOperatorType.Mot2.name();
 		this.mopId = 2;
 		oCcase = new Case();
 	}

@@ -15,7 +15,7 @@ import org.muplsql.transform.MutaOperatorType;
 public class MAggregater  extends MITransformer {
 
 	public MAggregater() {
-		this.mtype = MutaOperatorType.Mot031.name();
+		this.mtype = MutaOperatorType.Mot31.name();
 		this.mopId = 31;
 	}
 

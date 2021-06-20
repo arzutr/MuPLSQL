@@ -9,7 +9,7 @@ import org.muplsql.transform.MutaOperatorType;
 public class MTypeChanger extends MITransformer {
 //will be in future
 public MTypeChanger() {
-	this.mtype = MutaOperatorType.Mot038.name();//FIXME
+	this.mtype = MutaOperatorType.Mot38.name();//FIXME
 	this.mopId =38;
 }
 

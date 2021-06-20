@@ -10,7 +10,7 @@ import org.muplsql.transform.MutaOperatorType;
 public class MNullPredicateReplacer extends MITransformer {
 
 	public MNullPredicateReplacer() {
-		this.mtype = MutaOperatorType.Mot019.name();//FIXME
+		this.mtype = MutaOperatorType.Mot19.name();//FIXME
 		this.mopId =19;
 		oCcase = new  Case();
 	}

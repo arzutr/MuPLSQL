@@ -1,12 +1,12 @@
-package org.muplsql_full.transform.rel;
+package org.muplsql.transform.rel;
 /***
  * 3kasim2020 kullanilmiyor sanirim
  */
 import java.util.ArrayList;
 import java.util.List;
 
-import org.muplsql_full.transform.MITransformer;
-import org.muplsql_full.transform.MutaOperatorType;
+import org.muplsql.transform.MITransformer;
+import org.muplsql.transform.MutaOperatorType;
 
 public class MTFInserter extends MITransformer {
 	static String changeList[][] = new String[][] { { "and", " and false and" }, { "or", " or true or" } };

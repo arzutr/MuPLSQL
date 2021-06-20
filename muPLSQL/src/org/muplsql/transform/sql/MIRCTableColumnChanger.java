@@ -1,15 +1,12 @@
-package org.muplsql_full.transform.sql;
+package org.muplsql.transform.sql;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import org.muplsql_full.mcase.Case;
-import org.muplsql_full.transform.ITransformer;
-import org.muplsql_full.transform.MITransformer;
-import org.muplsql_full.transform.MutaOperatorType;
-import org.muplsql_full.transform.constant.ColumnTypeList;
-import org.muplsql_full.transform.constant.DBObject;
+import org.muplsql.mcase.Case;
+import org.muplsql.transform.*;
+import org.muplsql.transform.constant.*;
 //FIXME 2020
 /***
  * 
@@ -18,7 +15,7 @@ import org.muplsql_full.transform.constant.DBObject;
  */
 public class MIRCTableColumnChanger  extends MITransformer  implements ITransformer {
 
-;
+
 
 	public MIRCTableColumnChanger() {
 		this.mtype = MutaOperatorType.Mot41.name();

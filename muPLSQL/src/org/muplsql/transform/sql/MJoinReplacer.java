@@ -19,7 +19,7 @@ public class MJoinReplacer extends MITransformer {
 	static String changeList[][] = new String[][] { { "join", "left join" }, { "join", "right join" } };
 
 	public MJoinReplacer() {
-		this.mtype = MutaOperatorType.Mot024.name();
+		this.mtype = MutaOperatorType.Mot24.name();
 		this.mopId = 24;
 	}
 

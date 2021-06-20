@@ -29,7 +29,7 @@ public class MIFRelationalOpChanger extends MITransformer {
 			{ "<>", "=" }, { "<>", ">=" }, { "<>", ">" } };
 
 	public MIFRelationalOpChanger() {
-		this.mtype = MutaOperatorType.Mot007.name();
+		this.mtype = MutaOperatorType.Mot7.name();
 		this.mopId = 7;
 		oCcase = new Case();
 

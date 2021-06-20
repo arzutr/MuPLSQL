@@ -9,7 +9,7 @@ import org.muplsql.transform.MutaOperatorType;
 public class MHavingEditer extends MITransformer {
 
 	public MHavingEditer() {
-		this.mtype = MutaOperatorType.Mot036.name();//FIXME
+		this.mtype = MutaOperatorType.Mot36.name();//FIXME?? it was changed
 		this.mopId =35;
 	}
 

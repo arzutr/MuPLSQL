@@ -1,10 +1,10 @@
-package org.muplsql_full.transform.array;
+package org.muplsql.transform.array;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.muplsql_full.transform.MITransformer;
-import org.muplsql_full.transform.MutaOperatorType;
+import org.muplsql.transform.MITransformer;
+import org.muplsql.transform.MutaOperatorType;
 
 public class ConstantArrayReferenceReplacer  extends MITransformer {
 
@@ -12,7 +12,7 @@ public class ConstantArrayReferenceReplacer  extends MITransformer {
 		this.mtype = MutaOperatorType.Mot82.name();
 		this.mopId = 82;
 	}
-  @Override
+  			@Override
 			public List<String> mutateAsList(String value){
 				if (true)
 					throw new RuntimeException("This mutation operator works with code analysis");

@@ -9,7 +9,7 @@ import org.muplsql.transform.MutaOperatorType;
 public class MGotoReplacer extends MITransformer {
 
 	public MGotoReplacer() {
-		this.mtype = MutaOperatorType.Mot017.name();
+		this.mtype = MutaOperatorType.Mot17.name();
 		this.mopId = 17;
 	}
 
