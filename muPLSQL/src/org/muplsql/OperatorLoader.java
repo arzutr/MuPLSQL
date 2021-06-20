@@ -7,15 +7,13 @@ import org.muplsql.model.MutationOperator;
 import org.muplsql.transform.MBomber;
 import org.muplsql.transform.MITransformer;
 import org.muplsql.transform.ar.MArithmeticOperatorChanger;
-import org.muplsql.transform.funct.ArrayIndexReplacer;
+import org.muplsql.transform.array.ArrayIndexReplacer;
 import org.muplsql.transform.funct.MIFRelationalOpChanger;
 import org.muplsql.transform.funct.MAbsInserter;
 import org.muplsql.transform.funct.MAggregater;
 import org.muplsql.transform.funct.MAssignOperatorReplacer;
 import org.muplsql.transform.funct.MBreakAdder;
 import org.muplsql.transform.funct.MGotoReplacer;
-//import org.muplsql.transform.funct.MReturnAdder;
-//import org.muplsql.transform.funct.MStepOmitter;
 import org.muplsql.transform.rel.MLogicalConnectorChanger;
 
 import org.muplsql.transform.sql.MDistinctRemover;
