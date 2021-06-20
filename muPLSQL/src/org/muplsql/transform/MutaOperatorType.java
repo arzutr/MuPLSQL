@@ -6,6 +6,71 @@ package org.muplsql.transform;
  * 
  */
 public enum MutaOperatorType {	
+	Mot1,
+	Mot2,
+	Mot3,
+	Mot4,
+	Mot5,
+	Mot6,
+	Mot7,
+	Mot8,
+	Mot9,
+	Mot10,
+	Mot11,
+	Mot12,
+	Mot13,
+	Mot14,
+	Mot15,
+	Mot16,
+	Mot17,
+	Mot18,
+	Mot19,
+	Mot20,
+	Mot21,
+	Mot22,
+	Mot23,
+	Mot24,
+	Mot25,
+	Mot26,
+	Mot27,
+	Mot28,
+	Mot29,
+//	Mot30,
+	Mot31,
+	Mot32,
+	Mot33,
+	Mot34,
+	//Mot35,
+	Mot36,
+//	Mot37,
+//	Mot38,
+//	Mot39,
+	Mot50,
+	Mot51,
+	Mot53,
+	Mot40,
+	Mot41,
+	Mot42,
+	Mot43,
+	Mot37,
+	Mot35,
+	Mot30,
+	Mot38,
+	Mot39,
+	Mot44,
+	Mot45,
+	Mot46,
+	Mot47,
+	Mot48,// group by
+	Mot68,
+	Mot82,//constantforarrayreplacement
+	Mot83,//ACR
+	Mot84, //ASR
+	Mot85,
+	Mot86
+}
+/*
+public enum MutaOperatorType {	
 	Mot001,
 	Mot002,
 	Mot003,
@@ -45,3 +110,4 @@ public enum MutaOperatorType {
 	Mot037,//exists
 	Mot038//type changer not used
 }
+*/
