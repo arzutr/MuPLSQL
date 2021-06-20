@@ -1,9 +1,9 @@
-
+package org.muplsql.transform.constant;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.muplsql_full.transform.MITransformer;
-import org.muplsql_full.transform.MutaOperatorType;
+import org.muplsql.transform.MITransformer;
+import org.muplsql.transform.MutaOperatorType;
 
 public class CRPReplacer extends MITransformer {
 
