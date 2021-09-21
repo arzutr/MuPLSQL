@@ -56,5 +56,13 @@ SELECT DISTINCT
 
  
 
-
+CREATE TABLE mutation.TMUTATION_DICTIONARY
+(
+   owner_name     VARCHAR2 (100),
+   object_name    VARCHAR2 (100),
+   method_name    VARCHAR2 (100),
+   variablename   VARCHAR2 (100),
+   datatype       VARCHAR2 (100),
+   is_constant    VARCHAR2 (1)
+);
 
