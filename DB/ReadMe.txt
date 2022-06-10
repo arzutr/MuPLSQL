@@ -22,3 +22,6 @@ Table information is added as pdf document. Would please read this document befo
 
 
 In the ddl_create_user.sql file sample schema and required grants are declared. 
+
+
+Hint for clean cache: alter system flush shared_pool  
